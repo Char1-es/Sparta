@@ -1,5 +1,5 @@
-class RemainderOperation {
-    func calculateRemainder(lhs: Double, rhs: Double) -> Double {
+class RemainderOperation: AbstractOperation { 
+    override func calculate(lhs: Double, rhs: Double) -> Double {
         return lhs.truncatingRemainder(dividingBy: rhs)
     }
 }

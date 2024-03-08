@@ -1,5 +1,14 @@
-let calculator = Calculator()
+let calculator = Calculator(operation: AddOperation())
 
-let result = calculator.calculate(operator: "/", lhs: 5.8, rhs: 2.3)
+let addResult = calculator.calculate(lhs: 5.8, rhs: 2.4)
+print(addResult)
 
-print(result)
+calculator.changeOperator(operation: SubstractOperation())
+
+let substractResult = calculator.calculate(lhs: 5.8, rhs: 2.4)
+print(substractResult)
+
+calculator.changeOperator(operation: RemainderOperation())
+
+let remainderResult = calculator.calculate(lhs: 5.8, rhs: 2.4)
+print(remainderResult)

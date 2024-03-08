@@ -1,5 +1,5 @@
-class SubstractOperation {
-    func subtract(lhs: Double, rhs: Double) -> Double {
+class SubstractOperation: AbstractOperation {
+    override func calculate(lhs: Double, rhs: Double) -> Double {
         return lhs - rhs
     }
 }

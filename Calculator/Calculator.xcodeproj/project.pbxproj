@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC252F322B9A791B005417E3 /* AbstractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC252F312B9A791B005417E3 /* AbstractOperation.swift */; };
 		DC7DBD822B99B17E00093365 /* AddOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DBD812B99B17E00093365 /* AddOperation.swift */; };
 		DC7DBD842B99B18D00093365 /* SubstractOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DBD832B99B18D00093365 /* SubstractOperation.swift */; };
 		DC7DBD862B99B19500093365 /* MultiplyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7DBD852B99B19500093365 /* MultiplyOperation.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC252F312B9A791B005417E3 /* AbstractOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractOperation.swift; sourceTree = "<group>"; };
 		DC7DBD812B99B17E00093365 /* AddOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOperation.swift; sourceTree = "<group>"; };
 		DC7DBD832B99B18D00093365 /* SubstractOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractOperation.swift; sourceTree = "<group>"; };
 		DC7DBD852B99B19500093365 /* MultiplyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyOperation.swift; sourceTree = "<group>"; };
@@ -71,11 +73,12 @@
 			children = (
 				DC911E832B98698E000C36E3 /* main.swift */,
 				DC911E8A2B9869A9000C36E3 /* Calculator.swift */,
-				DC7DBD892B99DCBB00093365 /* RemainderOperation.swift */,
+				DC252F312B9A791B005417E3 /* AbstractOperation.swift */,
 				DC7DBD812B99B17E00093365 /* AddOperation.swift */,
 				DC7DBD832B99B18D00093365 /* SubstractOperation.swift */,
 				DC7DBD852B99B19500093365 /* MultiplyOperation.swift */,
 				DC7DBD872B99B19E00093365 /* DivideOperation.swift */,
+				DC7DBD892B99DCBB00093365 /* RemainderOperation.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				DC7DBD8A2B99DCBB00093365 /* RemainderOperation.swift in Sources */,
 				DC7DBD842B99B18D00093365 /* SubstractOperation.swift in Sources */,
 				DC7DBD862B99B19500093365 /* MultiplyOperation.swift in Sources */,
+				DC252F322B9A791B005417E3 /* AbstractOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
